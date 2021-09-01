@@ -16,29 +16,17 @@ void main() {
           borderRadius: const BorderRadius.all(const Radius.circular(50)),
           )
         ),*/
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            color: Colors.red,
-            child: Text('First'),
-            padding: EdgeInsets.all(20),
-            margin: EdgeInsets.all(20),
-          ),
-          Container(
-            color: Colors.red,
-            child: Text('Second'),
-            padding: EdgeInsets.all(20),
-            margin: EdgeInsets.all(20),
-          ),
-          Container(
-            color: Colors.red,
-            child: Text('Third'),
-            padding: EdgeInsets.all(20),
-            margin: EdgeInsets.all(20),
-          )
-        ],
+      body: Container(
+        color: Colors.blue,
+        height: 30,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+           Text('First'),
+            Text('Second'),
+            Text('Third'),
+          ],
+        ),
       ),
       )
     ),
