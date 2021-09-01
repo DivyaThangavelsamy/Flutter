@@ -7,8 +7,12 @@ void main() {
         backgroundColor: Colors.red[900],
         title: Center(child: Text('My first app')),
       ),
-      body: Center(child: Text('Hello World',style: TextStyle(color: Colors.green[100]),)),
-      backgroundColor: Colors.red[140],
+      body: Container(
+        color: Colors.red,
+        child: Text("Hello World"),
+        padding: EdgeInsets.all(40),
+        margin: EdgeInsets.fromLTRB(20, 30, 20, 30),
+      )
     ),
   ));
 }
