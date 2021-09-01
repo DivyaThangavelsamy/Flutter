@@ -17,6 +17,8 @@ void main() {
           )
         ),*/
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             color: Colors.red,
